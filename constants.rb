@@ -2,6 +2,7 @@
 MAX = 20
 LIVES = 3
 OPERATIONS = [:+, :-, :*]
+OPERATION_NAMES = ["plus", "minus", "times"]
 
 # Colours
 RED = "\e[31m"
@@ -11,4 +12,3 @@ MAGENTA = "\e[35m"
 WHITE = "\e[7m"
 RESET_COLOUR = "\e[0m"
 RED_BG = "\e[41m"
-
